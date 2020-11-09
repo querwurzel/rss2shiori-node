@@ -2,10 +2,14 @@
 
 some script importing rss feed to shiori via system call
 
+## Prologue
+
+`npm install`
+
 ## Usage
 
-1. change filename of rss xml file in script
-2. change system call to point to shiori binary by absolute path
+1. change filename of rss xml file in import script
+2. change path to point to shiori binary in import script
 3. update shiori after import by calling `shiori update`
 
 ## Epilogue
